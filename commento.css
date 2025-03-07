@@ -1,0 +1,146 @@
+/* 🌟 Custom Commento Styling – Lighter Background + Pure White Text + Smooth Effects */
+
+/* ✨ Base Styling */
+#commento {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.7;
+  background: transparent;
+  color: #ffffff;
+}
+
+/* 📝 Lighter Comment Box */
+#commento .comment, 
+#commento .commento-comment {
+  background: #3e3e3e !important; /* Lighter dark gray */
+  color: #ffffff !important;
+  border: 1px solid #666666 !important;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin: 12px 0;
+  opacity: 0;
+  animation: fadeIn 0.7s ease-in-out forwards;
+}
+
+/* 🚀 Smooth Fade-In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 🏆 Comment Author */
+#commento .comment-author {
+  color: #ffcc00 !important;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.2s ease-in-out;
+}
+#commento .comment-author:hover {
+  color: #ffd633 !important;
+}
+
+/* ⏳ Comment Date */
+#commento .comment-date {
+  color: #cccccc;
+  font-size: 0.9em;
+  margin-left: 8px;
+}
+
+/* 💬 Comment Text */
+#commento .comment-body {
+  color: #ffffff !important;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
+}
+#commento .comment-body p {
+  margin: 0.6em 0;
+}
+
+/* 🔗 Links */
+#commento a {
+  color: #ffcc00 !important;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+#commento a:hover {
+  color: #ffdd44 !important;
+  text-decoration: underline;
+}
+
+/* ✅ Buttons */
+.commento-button {
+  background: linear-gradient(45deg, #ffd700, #ffcc00);
+  color: #000000;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background 0.3s;
+}
+.commento-button:hover {
+  background: linear-gradient(45deg, #ffcc00, #ffaa00);
+  transform: scale(1.03);
+}
+
+/* ✍️ Input Fields */
+.commento-root textarea, 
+.commento-root input[type=text], 
+.commento-root input[type=email] {
+  background-color: #4a4a4a;
+  color: #ffffff;
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.commento-root textarea:focus,
+.commento-root input[type=text]:focus,
+.commento-root input[type=email]:focus {
+  border-color: #ffcc00;
+  box-shadow: 0 0 12px rgba(255, 204, 0, 0.5);
+}
+
+/* 🖼️ Avatar Styling */
+.commento-avatar {
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+.commento-avatar:hover {
+  transform: scale(1.06);
+}
+
+/* 🗨️ Quotes */
+.commento-blockquote {
+  border-left: 3px solid #ffcc00;
+  padding-left: 12px;
+  color: #ffffff;
+  font-style: italic;
+  transition: border-color 0.2s ease-in-out;
+}
+.commento-blockquote:hover {
+  border-left-color: #ffdd44;
+}
+
+/* 🌐 Custom Emojis */
+.commento-body .emoji {
+  width: 22px;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* ✅ Checkbox */
+#commento input[type=checkbox] {
+  accent-color: #ffcc00;
+}
+#commento label {
+  color: #ffffff;
+  cursor: pointer;
+}
