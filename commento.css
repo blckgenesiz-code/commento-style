@@ -1,4 +1,4 @@
-/* 🌟 Custom Commento Styling – Lighter Background + Pure White Text + Smooth Effects */
+/* 🌟 Custom Commento Styling – Now Fully Matched to Blogger Theme */
 
 /* ✨ Base Styling */
 #commento {
@@ -9,13 +9,13 @@
   color: #ffffff;
 }
 
-/* 📝 Lighter Comment Box */
+/* 📝 Comment Box - Optimized for Your Blogger Theme */
 #commento .comment, 
 #commento .commento-comment {
-  background: #3e3e3e !important; /* Lighter dark gray */
+  background: #292929 !important; /* Darker but visible background */
   color: #ffffff !important;
-  border: 1px solid #666666 !important;
-  border-radius: 8px;
+  border: 1px solid #444444 !important; /* Subtle border */
+  border-radius: 6px;
   padding: 14px 16px;
   margin: 12px 0;
   opacity: 0;
@@ -26,7 +26,7 @@
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(6px);
+    transform: translateY(4px);
   }
   to {
     opacity: 1;
@@ -36,23 +36,23 @@
 
 /* 🏆 Comment Author */
 #commento .comment-author {
-  color: #ffcc00 !important;
+  color: #ffcc00 !important; /* Gold */
   font-weight: bold;
   font-size: 18px;
   transition: color 0.2s ease-in-out;
 }
 #commento .comment-author:hover {
-  color: #ffd633 !important;
+  color: #ffd633 !important; /* Slightly lighter gold */
 }
 
 /* ⏳ Comment Date */
 #commento .comment-date {
-  color: #cccccc;
+  color: #bbbbbb;
   font-size: 0.9em;
   margin-left: 8px;
 }
 
-/* 💬 Comment Text */
+/* 💬 Comment Text - Readability Improved */
 #commento .comment-body {
   color: #ffffff !important;
   text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
@@ -61,7 +61,7 @@
   margin: 0.6em 0;
 }
 
-/* 🔗 Links */
+/* 🔗 Links - Gold Accent */
 #commento a {
   color: #ffcc00 !important;
   text-decoration: none;
@@ -72,31 +72,31 @@
   text-decoration: underline;
 }
 
-/* ✅ Buttons */
+/* ✅ Buttons - Slightly Smaller & Rounded */
 .commento-button {
-  background: linear-gradient(45deg, #ffd700, #ffcc00);
+  background: linear-gradient(45deg, #ffcc00, #ffb700);
   color: #000000;
-  border-radius: 6px;
-  padding: 6px 12px;
+  border-radius: 5px;
+  padding: 5px 10px; /* Slightly reduced size */
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.2s ease-in-out, background 0.3s;
 }
 .commento-button:hover {
-  background: linear-gradient(45deg, #ffcc00, #ffaa00);
-  transform: scale(1.03);
+  background: linear-gradient(45deg, #ffaa00, #ffcc00);
+  transform: scale(1.02);
 }
 
-/* ✍️ Input Fields */
+/* ✍️ Input Fields - Better Visibility */
 .commento-root textarea, 
 .commento-root input[type=text], 
 .commento-root input[type=email] {
-  background-color: #4a4a4a;
+  background-color: #333333;
   color: #ffffff;
-  border: 1px solid #888;
-  border-radius: 5px;
-  padding: 8px;
+  border: 1px solid #777;
+  border-radius: 4px;
+  padding: 6px;
   width: 100%;
   transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
@@ -104,23 +104,23 @@
 .commento-root input[type=text]:focus,
 .commento-root input[type=email]:focus {
   border-color: #ffcc00;
-  box-shadow: 0 0 12px rgba(255, 204, 0, 0.5);
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
 }
 
-/* 🖼️ Avatar Styling */
+/* 🖼️ Avatar Styling - Slight Shadow */
 .commento-avatar {
   border-radius: 50%;
   box-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
   transition: transform 0.2s ease-in-out;
 }
 .commento-avatar:hover {
-  transform: scale(1.06);
+  transform: scale(1.05);
 }
 
-/* 🗨️ Quotes */
+/* 🗨️ Quotes - Cleaner Look */
 .commento-blockquote {
   border-left: 3px solid #ffcc00;
-  padding-left: 12px;
+  padding-left: 10px;
   color: #ffffff;
   font-style: italic;
   transition: border-color 0.2s ease-in-out;
@@ -136,7 +136,7 @@
   vertical-align: middle;
 }
 
-/* ✅ Checkbox */
+/* ✅ Checkbox - Now More Visible */
 #commento input[type=checkbox] {
   accent-color: #ffcc00;
 }
